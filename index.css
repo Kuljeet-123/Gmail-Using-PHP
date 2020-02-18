@@ -1,0 +1,67 @@
+@charset "utf-8";
+body {
+	background-color: #DAF0F6;
+}
+#wrapper {
+	width: 600px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo {
+	margin-top: 15px;
+	width: 150px;
+	height: 50px;
+	margin-left: 225px;
+}
+#wrapper p {
+	font-size: 22px;
+	text-align: center;
+}
+#loginform {
+	width: 360px;
+	height: 330px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #A1D8E8;
+}
+#logintable {
+	width: 300px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+}
+#UId {
+	width: 280px;
+	height: 45px;
+	font-size: 25px;
+	padding-left: 5px;
+	margin-top: 60px;
+	margin-bottom: 10px;
+}
+#pwd {
+	width: 280px;
+	height: 45px;
+	font-size: 25px;
+	padding-left: 5px;
+}
+#login {
+	width: 286px;
+	height: 40px;
+	margin-top: 20px;
+	background-color: #4589F7;
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+#RegLink {
+	text-align: center;
+	font-size: 22px;
+	padding-left: 100px;
+
+}
+#errorMsg {
+	font-size: 25px;
+	text-align: center;
+}

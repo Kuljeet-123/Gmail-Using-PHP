@@ -1,0 +1,102 @@
+@charset "utf-8";
+body {
+	background-color: #DAF0F6;
+}
+#wrapper {
+	width: auto;
+	height: auto;
+	margin-top: -10px;
+	margin-right: -5px;
+}
+#header {
+	background-color: #A1E2F4;
+	width: auto;
+	height: 80px;
+}
+#logo {
+	width: 150px;
+	height: 50px;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+#SignInLink {
+	float: right;
+	font-size: 30px;
+	padding-top: 20px;
+	padding-right: 20px;
+	text-decoration: none;
+}
+#text {
+	text-align: center;
+	font-size: 30px;
+}
+#RegistrationForm {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	height: auto;
+}
+#RegistrationTable {
+	width: 360px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+#UId {
+	width: 340px;
+	height: 40px;
+	padding-left: 5px;
+	margin-bottom: 10px;
+	font-size: 25px;
+}
+#dob {
+	width: 70px;
+	padding-left: 5px;
+	font-size: 23px;
+	height: 40px;
+}
+#date {
+	height: 45px;
+	width: 90px;
+	font-size: 23px;
+	position: relative;
+	padding-left: 5px;
+}
+#month {
+	width: 105px;
+	height: 45px;
+	font-size: 23px;
+	margin-left: 10px;
+	padding-left: 5px;
+}
+#year {
+	width: 124px;
+	height: 45px;
+	margin-left: 10px;
+	padding-left: 5px;
+	font-size: 23px;
+	margin-bottom: 10px;
+}
+#UId1 {
+	width: 340px;
+	height: 40px;
+	padding-left: 5px;
+	margin-bottom: 10px;
+	font-size: 25px;
+	text-align: center;
+}
+#UId2 {
+	width: 350px;
+	height: 40px;
+	padding-left: 5px;
+	margin-bottom: 10px;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 15px;
+	background-color: #4589F7;
+}
+#error {
+	font-size: 25px;
+	text-align: center;
+}

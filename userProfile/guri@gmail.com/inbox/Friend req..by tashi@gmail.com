@@ -1,0 +1,1 @@
+<p><a href='userAccount.php?acpt=tashi@gmail.com'>Click here to accept</a></p><p><a href='userAccount.php?rjct=tashi@gmail.com'>Click here to reject</a></p>

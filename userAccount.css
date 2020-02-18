@@ -1,0 +1,276 @@
+@charset "utf-8";
+body {
+	/*background-color: #DAF0F6;*/
+}
+/*css style for page*/
+#wrapper {
+	width: auto;
+	height: auto;
+	margin-top: -10px;
+	margin-right: -5px;
+}
+/*header style starts*/
+#header {
+	/*background-color: #A1E2F4;*/
+	width: auto;
+	height: 60px;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-left: 5px;
+	text-transform: capitalize;
+}
+#logout {
+	float: right;
+	margin-right: 15px;
+	padding-left: 5px;
+	text-decoration: none;
+}
+#setting {
+	float: right;
+	border-right: medium solid #C94DD9;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-decoration: none;
+}
+/*header style ends*/
+
+
+/*now dividing page into three parts using table:
+	1-function
+	2-content box
+	3-ad box
+	*/
+#tab {
+	width: 100%;
+	margin-bottom: 0px;
+	margin-top: -2px;
+}
+#functionbox   {
+	width: 15%;
+	height: 588px;
+	vertical-align: top;
+}
+
+
+/*function navigation menu style starts*/
+ul 
+{
+list-style-type:none;
+margin:0;
+padding:0;
+}
+#functionbox a:link,a:visited {
+	display: block;
+	font-weight: bold;
+	color: #000000;
+	width: 100%;
+	text-align: left;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-top: -1px;
+	margin-left: -6px;
+	padding-top: 4px;
+	padding-right: 4px;
+	padding-bottom: 4px;
+	padding-left: 4px;
+	height: 25px;
+}
+#functionbox a:hover, a:active {
+	
+background-color:#7A991A;
+}
+#labelFun {
+	font-size: 26px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+	background-color: #71CAF5;
+}
+
+/*function navigation menu style ends*/
+
+/*style for content box*/
+#contentbox   {
+	width: 70%;
+	/*background-color: #89F0CE;*/
+	font-size: 25px;
+	text-align: center;
+	vertical-align: text-top;
+}
+
+#contentbox a  {
+	text-decoration: none;
+	font-size: 25px;
+}
+#composeTable {
+	font-size: 25px;
+
+}
+
+#touser {
+	width: 400px;
+	height: 30px;
+	font-size: 22px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+}
+#subject {
+	width: 400px;
+	height: 30px;
+	font-size: 22px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+}
+#message {
+	width: 650px;
+	height: 350px;
+	font-size: 22px;
+	padding-left: 5px;
+}
+#save {
+	width: 110px;
+	height: 35px;
+	font-size: 25px;
+	margin-right: 5px;
+	margin-top: 10px;
+}
+/*style ends for compose mail page*/
+
+/*now style starts for change pwd page*/
+#change_pwd_form {
+	width: 300px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 30px;
+	margin-top: 35px;
+}
+#OldPwd {
+	width: 280px;
+	height: 35px;
+	margin-top: 25px;
+	padding-left: 5px;
+	font-size: 25px;
+}
+#NewPwd {
+	width: 280px;
+	height: 35px;
+	margin-top: 10px;
+	padding-left: 5px;
+	font-size: 25px;
+}
+#reset {
+	width: 110px;
+	height: 40px;
+	margin-top: 35px;
+	font-size: 25px;
+	margin-left: 25px;
+	margin-right: 5px;
+}
+#submit {
+	width: 110px;
+	height: 40px;
+	margin-top: 35px;
+	font-size: 25px;
+}
+#inbox_header {
+	width: 100%;
+	background-color: #ADCD50;
+	border-radius: 10px;
+	font-size: 30px;
+	text-align: left;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+#delete {
+	width: 100px;
+	height: 30px;
+	margin-top: -2px;
+	font-size: 20px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 3px;
+
+}
+#selectInbox {
+	width: 120px;
+	height: 30px;
+	margin-right: 23%;
+	font-size: 20px;
+}
+
+#deleteFor {
+	width: 150px;
+	height: 30px;
+	margin-top: -2px;
+	font-size: 20px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 3px;
+
+}
+#inbox_table {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	margin-top: 1px;
+	width: 99%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#inbox_table td 
+{
+	font-size: 1em;
+	border: 1px solid #98bf21;
+	padding: 3px 7px 2px 7px;
+}
+
+#inbox_table tr.alt td 
+{
+color:#000000;
+background-color:#EAF2D3;
+}
+#advertise {
+
+
+}
+#label_header {
+	width: 100%;
+	background-color: #ADCD50;
+	border-radius: 10px;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+#label {
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	text-align: left;
+	width: auto;
+	height: auto;
+}
+#labelRemove {
+	float: right;
+}
+#labelList {
+	width: 120px;
+	height: 30px;
+	margin-top: -2px;
+	font-size: 20px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 3px;
+
+}
+
+#moveLbutton {
+	width: 90px;
+	height: 30px;
+	margin-top: -2px;
+	font-size: 20px;
+	margin-right: 45px;
+	margin-left: 0px;
+	margin-bottom: 3px;
+
+}
