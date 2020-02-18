@@ -13,7 +13,10 @@
 ## Screenshots:-
 
 ### Homescreen page:-
-![HomePage](https://github.com/Kuljeet-123/CMS-Globe-Bank-Project-Using-PHP-And-MYSQL/blob/master/screenshots/homepage.png?raw=true)
+![HomePage](https://github.com/Kuljeet-123/Gmail-Using-PHP/blob/master/screenshots/home.png?raw=true)
 
 ### Login page:-
-![LoginPage](https://github.com/Kuljeet-123/CMS-Globe-Bank-Project-Using-PHP-And-MYSQL/blob/master/screenshots/login.png?raw=true) 
+![LoginPage](https://github.com/Kuljeet-123/Gmail-Using-PHP/blob/master/screenshots/login.png?raw=true) 
+
+### Signup page:-
+![SignupPage](https://github.com/Kuljeet-123/Gmail-Using-PHP/blob/master/screenshots/signin.png?raw=true) 
